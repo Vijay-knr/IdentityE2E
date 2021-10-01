@@ -1,3 +1,5 @@
+package helper;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -58,7 +60,6 @@ public class WebsiteHelper {
             System.out.println("=====================================================================");
             System.out.println(reg + ": Vehicle Not Found");
             System.out.println("=====================================================================");
-
         }
     }
     private WebElement getElement(String label) {
