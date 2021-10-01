@@ -19,3 +19,10 @@ Tests Results:
 2. BW57BOW: Vehicle Not Found.
 3. KT17DLX: MATCHED.
 4. SG18HTN: MATCHED
+
+Please note:
+If we want other files, please supply as system variable as follows.
+-Dinput_file_path OR
+-Doutput_file_path
+
+By default these files will read from root directory of this project.
